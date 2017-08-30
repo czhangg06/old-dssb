@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Data Science Society at Berkeley</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS Global Compulsory-->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="assets/css/theme-colors/dark-blue.css">
+    <link rel="stylesheet" href="assets/css/theme-skins/dark.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <!--=== Header ===-->
+    <div class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <!-- Topbar Navigation -->
+                <ul class="loginbar pull-right ">
+                    <li class="languagesSelector">
+                        <i class="fa fa-globe" ></i>
+                        <a>Languages</a>
+                        <ul class="languages">
+                            <li class="active">
+                                <a href="#">English <i class="fa fa-check"></i></a>
+                            </li>
+                            <li><a href="#">Binary </a></li>
+
+                </ul>
+                <!-- End Topbar Navigation -->
+            </div>
+        </div>
+        <!-- End Topbar -->
+
+        <!-- Navbar -->
+        <div class="navbar navbar-default mega-menu" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img id="logo-header" style="max-width:136px; margin-top: -24px;" src="assets/img/logo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse" style=" margin-top: 24px;">
+
+                    <ul class="nav navbar-nav">
+                        <!-- Home -->
+                        <li>
+                            <a  href="index.html" >
+                                Home
+                            </a>
+                        </li>
+                        <!-- End Home -->
+
+                        <!-- Pages -->
+                        <li >
+                            <a href="about.html">
+                                About
+                            </a>
+
+                        </li>
+                        <!-- End Pages -->
+
+                        <!-- Blog -->
+                        <li>
+                            <a href="projects.html">
+                                Projects
+                            </a>
+                        </li>
+                        <!-- End Blog -->
+                        
+                        <!-- Community-Engagement -->
+                        <li>
+                            <a href="education.html">
+                                Education
+                            </a>
+                        </li>
+                        <!-- End Community-Engagement -->
+
+                        <!-- Join -->
+                        <!--<li>
+                            <a href="events.html">
+                                Events
+                            </a>
+                        </li>-->
+                        <!-- End Join -->
+                                                <!-- Blog -->
+                        <li>
+                            <a href="join.html">
+                                Join
+                            </a>
+                        </li>
+                        <!-- End Submit -->
+
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>
+    <!--=== End Header ===-->
+
+    <div class="modal fade" id="signup-form" tabindex="-1" role="dialog" aria-labelledby="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="signUpModal">Subscribe to our maillinglist</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                    <form action="//dssberkeley.us14.list-manage.com/subscribe/post?u=131893dc14fc8f7df4da38a50&amp;id=b769608c15" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group form-group">
+                            <label for="mce-EMAIL">Email Address </label>
+                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-FNAME">First Name </label>
+                            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-LNAME">Last Name </label>
+                            <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_131893dc14fc8f7df4da38a50_b769608c15" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-default">
+                        </div>
+                       </div>
+                    </form>
+                    </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--=== Content Part ===-->
+    <div class="widewrapper">
+        <div class="container login">
+            <br>
+            <br>
+            <br>
+            <h1 style="font-size:250%; text-align:center;">Keep in touch</h1>
+            <br>
+            <p style="font-size:18px; text-align:center;">
+               To keep up with our workshops, public events, and more, <span type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#signup-form">subscribe</span> to our <a href="http://tinyurl.com/joindssb"></a>mailing list!
+            <br>
+            <br>
+            <hr>
+            <br><br>
+            <h3 style="font-size:150%; text-align:center;">The Fall 2017 Application will be released on August 30th.</h3>
+            <h3 style="text-align:center;">Check back soon!</h3>
+            <br><br><br><br>
+        </p>
+        </div>
+    </div>
+
+    <!--<div class="widewrapper">
+        <div class="container login">
+            <br>
+            <br>
+            <h1 style="font-size:250%; text-align:center;">General Members</h1>
+            <br>
+            <p style="font-size:18px; text-align:center;">
+                Thanks for your interest in the Data Science Society at Berkeley.  Anyone, not just limited to Berkeley students are welcome to join for free. We will keep you updated with our events and projects information.To become a member, simply <span type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#signup-form">subscribe</span> to our --><!-- <a href="http://tinyurl.com/joindssb"></a> mailinglist.-->
+            <!--<br>
+            <br>
+            <div class="row">
+                <div style="font-size:20px; text-align:center; color:grey;">
+                    <span>or</span>
+                </div>
+            </div>
+            <br>
+            <h1 style="font-size:250%; text-align:center;">Analytics Committee (Project Teams)</h1>
+            <br>
+            <p style="font-size:18px; text-align:center;">
+                If you are interested participating in data science projects or activities. Please
+                APPLY <a href="https://docs.google.com/forms/d/165OEN25jCJoMFzG-AkHWxvgjDB75egVwgw_fO38AcmE/edit?usp=sharing"> here. </a>
+            </p>
+            <br>
+            <br>
+            <div class="row">
+                <div style="font-size:20px; text-align:center; color:grey;">
+                    <span>or</span>
+                </div>
+            </div>
+            <br>
+            <h1 style="font-size:250%; text-align:center;">Committee Members</h1>
+            <br>
+            <p style="font-size:18px; text-align:center;">
+                If you are interested in becoming a committee member. Please
+                APPLY <a href="https://docs.google.com/forms/d/1dscnTYRSl_sjGdi0nhAgv1A6TLDlbqgSjjHMGXpfZvY/edit?usp=sharing"> here. </a>
+            </p>
+            <br>
+            <br>
+            <div class="row">
+                <div style="font-size:20px; text-align:center; color:grey;">
+                    <span>or</span>
+                </div>
+            </div>
+            <br>
+            <h1 style="font-size:250%; text-align:center;">Cal Kaggle Team</h1>
+            <br>
+            <p style="font-size:18px; text-align:center;">
+                Kaggle is a data science platform that hosts a wide variety of challenging data science problems faced in industry. Data scientists from all around the world compete against each other to see who can build the better predictive model. The Cal Kaggle team will be representing Berkeley as one of these competitors this semester and is looking for passionate, competition-driven data scientists to help us rank as high as possible. Note that there are going to be two teams - Junior Varsity and Varsity. Depending on the applications and interview responses, we will determine which team is most appropriate.
+            </p>
+            <p style="font-size:18px; text-align:center;">
+                If you are interested in joining the Cal Kaggle Team. Please
+                APPLY <a href="https://docs.google.com/forms/d/1EVylm4IwAYev8QaBtLMQAvQA7hzoHdRVkENKlBmVdlk/edit?usp=sharing"> here. </a>
+            </p>
+            <br>
+            <br>-->
+            <!-- <br>
+            <div class="row">
+                <div style="font-size:20px; text-align:center; color:grey;">
+                    <span>or</span>
+                </div>
+            </div>
+
+            <br>
+                <h1 style="font-size:250%; text-align:center;">Job Referral</h1>
+            <br>
+
+            <br>
+            <p style="font-size:18px; text-align:center;">
+                If you are a data science student, willing to get your resume reviewd by our corporate parteners
+                please upload it below
+            </p>
+
+            <p style="font-size:18px; text-align:center;">
+                <form action="/uploads" enctype="multipart/form-data" method="POST">
+                    <input type="file" name="my_file" multiple="multiple"  style="font-size:12px width:100px;margin:0 auto;"/>
+                </form>
+                <script type="text/javascript">
+                    $(function() {
+                      $('form').transloadit({
+                        wait: true,
+                        triggerUploadOnFileSelection: true,
+                        params: {
+                          auth: {
+                            key: "YOUR_AUTH_KEY",
+                            expires: '2016-02-01 06:24:19 UTC'
+                          },
+                          template_id: 'YOUR_TEMPLATE_ID'
+                        },
+                        signature: 'THE_SIGNATURE'
+                      });
+                    });
+                </script>
+            </p>
+
+
+        </div>
+    </div>
+ -->
+
+    </div><!--/container-->
+    <!--=== End Content Part ===-->
+
+    <!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <a href="index.html"><h2> About DSSB </h2></a>
+                        <p>Our mission is to gather students from Berkeley who are interested in data science, and give them the best possible resources to  strive for success.</p>
+
+                    </div><!--/col-md-3-->
+                    <!-- End About -->
+
+                    <!-- Latest -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="posts">
+                            <div class="headline"><h2>Follow Us</h2></div>
+                            <ul class="list-unstyled latest-list">
+                                <li>
+                                    <a href="https://www.facebook.com/dssberkeley/?fref=ts">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#">Instagram</a>
+                                </li>
+                                <li>
+                                    <a href="#">Wechat</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div><!--/col-md-3-->
+                    <!-- End Latest -->
+
+                    <!-- Link List -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="headline"><h2>Contact Us</h2></div>
+                        <p>
+                        Please feel free to email us at dss.berkeley@gmail.com.  We will get back to you as soon as possible!
+                        </p>
+                    </div><!--/col-md-3-->
+                    <!-- End Link List -->
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img md-margin-bottom-40">
+                        <div class="headline"><h2>Join our mailing list</h2></div>
+                        <img src="assets/img/mailinglist.jpg" height="128" width="128">
+                    </div><!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div>
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <p>
+                            2016 &copy; All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="text-center">
+                            We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.
+                        </p>
+                    </div>
+                    <div class="col-md-1 map-img">
+                        <a href="https://www.ocf.berkeley.edu/">
+                        <img src="https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!--/copyright-->
+    </div>
+    <!--=== End Footer Version 1 ===-->
+    <!--=== End Footer Version 1 ===-->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script> -->
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<!-- <script type="text/javascript" src="assets/plugins/back-to-top.js"></script> -->
+<!-- <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script> -->
+<!-- JS Customization -->
+<!-- <script type="text/javascript" src="assets/js/custom.js"></script> -->
+<!-- JS Page Level -->
+<!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        App.initSliders();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html>

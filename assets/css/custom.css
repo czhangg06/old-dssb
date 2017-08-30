@@ -1,0 +1,24 @@
+/* Add here all your css styles (customizations) */
+#brand-image
+    {
+        height: 54px;
+    }
+
+/* custom css */
+#sp-16-projects {
+	display: none;
+	transition: display 100ms;
+}
+
+#fa-16-projects {
+	display: none;
+	transition: display 100ms;
+}
+
+.headline:hover {
+	cursor: pointer;
+}
+
+a.action-link {
+	text-decoration: none;
+}
